@@ -4,7 +4,6 @@
 int main(void)
 {
 	Array<int> a(5);
-	// a[0] = 5;
 	for (unsigned int i = 0; i < a.size(); i++)
 	{
 		std::cout << a[i] << std::endl;
