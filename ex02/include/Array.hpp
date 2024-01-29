@@ -10,7 +10,7 @@ private:
 	T *array;
 	unsigned int _size;
 public:
-	Array(void)
+	Array()
 	{
 		this->array = new T();
 		this->_size = 0;
@@ -50,7 +50,7 @@ public:
 		return (this->array[index]);
 	}
 
-	~Array(void)
+	~Array()
 	{
 		delete[] this->array;
 	}
