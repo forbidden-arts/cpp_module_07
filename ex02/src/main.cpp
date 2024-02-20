@@ -27,7 +27,7 @@ int main(void)
 		std::cout << e.what() << std::endl;
 	}
 
-	std::cout << "COPY CONSTRUCTOR TES" << std::endl;
+	std::cout << std::endl << "COPY CONSTRUCTOR TEST" << std::endl;
 	try
 	{
 		int index = 0;
@@ -45,7 +45,7 @@ int main(void)
 		std::cout << e.what() << std::endl;
 	}
 
-	std::cout << "PRINT CONTENT AT INDEX" << std::endl;
+	std::cout << std::endl << "PRINT CONTENT AT INDEX" << std::endl;
 	{
 		try
 		{
@@ -59,7 +59,7 @@ int main(void)
 		}
 	}
 
-	std::cout << "COPY ASSIGNMENT OPERATOR TEST" << std::endl;
+	std::cout << std::endl << "COPY ASSIGNMENT OPERATOR TEST" << std::endl;
 	try
 	{
 		int index = 0;
@@ -77,7 +77,7 @@ int main(void)
 		std::cout << e.what() << std::endl;
 	}
 
-	std::cout << "AFTER BEING INITIALIZED FIRST" << std::endl;
+	std::cout << std::endl << "AFTER BEING INITIALIZED FIRST" << std::endl;
 	try
 	{
 		int index = 0;
